@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="head">
+        <input type="text" id="input" placeholder="Search By Name or Symbol" oninput="filterData()">
+        <button id="mkt" onclick="sortData('marketCap')">Sort By Mkt Cap</button>
+        <button id="percent" onclick="sortData('percentageChange')">Sort by percentage</button>
+    </section>
+
+    <table id="table">
+
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
